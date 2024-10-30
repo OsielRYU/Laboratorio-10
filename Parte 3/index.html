@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 3</title>
+</head>
+<body>
+    <Script>
+        let nombre = "Yoneth";
+        let apellido = "Fragozo";
+        let edad = "21";
+        let nombreCompleto = nombre + "  " + apellido;
+        let esMayorDeEdad = true;
+        let TieneLicencia = true;
+        p=esMayorDeEdad||TieneLicencia
+        o=esMayorDeEdad&&TieneLicencia
+        let MensajeDeBienvenida = "Hola Bienvenido al comprobador de Licencias";
+
+        console.log(MensajeDeBienvenida);
+        console.log(nombreCompleto);
+
+        if( esMayorDeEdad && TieneLicencia) {
+            console.log("Hola, Puede conducir")
+        }else{
+            console.log("Hola, No Puede conducir")
+        }
+        let x = true;
+        let y = true;
+        console.log(x||y);
+        console.log("Tiene Capacidad de Conducir: ", p);
+        
+        
+
+    </Script>
+</body>
+</html>
